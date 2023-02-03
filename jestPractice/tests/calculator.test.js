@@ -1,4 +1,7 @@
-
+//Addition Function
+function sum(a,b) {
+  return a + b;
+}
 // TEST
 test('addition calculator', () => {
   expect(sum(1, 1)).toBe(2);
