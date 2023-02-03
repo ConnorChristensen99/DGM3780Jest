@@ -29,11 +29,15 @@ test('subtraction calculator', () => {
 
 
 
+//Multiplication Function
+function product(a,b) {
+  return a * b;
+}
 // TEST
-test('subtraction calculator', () => {
+test('multiplication calculator', () => {
   expect(product(5, 5)).toBe(25);
 });
-test('subtraction calculator', () => {
+test('multiplication calculator', () => {
   expect(product(0, 10000)).toBe(0);
 });
 
