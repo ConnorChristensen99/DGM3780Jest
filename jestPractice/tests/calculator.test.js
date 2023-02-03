@@ -77,6 +77,11 @@ test('remainder calculator', () => {
 
 
 
+
+//exponential Function
+function exponential(a,b) {
+  return a ** b;
+}
 // TEST
 test('exponential calculator', () => {
   expect(exponential(5, 3)).toBe(125);
