@@ -41,3 +41,17 @@ test('multiplication calculator', () => {
   expect(product(0, 10000)).toBe(0);
 });
 
+
+
+
+
+
+// TEST
+test('division calculator', () => {
+  expect(quotient(10, 10)).toBe(1);
+});
+test('division calculator', () => {
+  expect(quotient(25, 5)).toBe(5);
+});
+
+
