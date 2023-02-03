@@ -13,11 +13,14 @@ test('addition calculator', () => {
 
 
 
-
+//Subtraction Function
+function difference(a,b) {
+  return a - b;
+}
 // TEST
 test('subtraction calculator', () => {
-  expect(sum(32, 1)).toBe(31);
+  expect(difference(32, 1)).toBe(31);
 });
 test('subtraction calculator', () => {
-  expect(sum(15, 20)).toBe(-5);
+  expect(difference(15, 20)).toBe(-5);
 });
