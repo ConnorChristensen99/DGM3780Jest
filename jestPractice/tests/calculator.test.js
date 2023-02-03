@@ -24,3 +24,16 @@ test('subtraction calculator', () => {
 test('subtraction calculator', () => {
   expect(difference(15, 20)).toBe(-5);
 });
+
+
+
+
+
+// TEST
+test('subtraction calculator', () => {
+  expect(product(5, 5)).toBe(25);
+});
+test('subtraction calculator', () => {
+  expect(product(0, 10000)).toBe(0);
+});
+
