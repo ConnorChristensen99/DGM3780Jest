@@ -46,6 +46,11 @@ test('multiplication calculator', () => {
 
 
 
+
+//Division Function
+function quotient(a,b) {
+  return a / b;
+}
 // TEST
 test('division calculator', () => {
   expect(quotient(10, 10)).toBe(1);
@@ -53,5 +58,17 @@ test('division calculator', () => {
 test('division calculator', () => {
   expect(quotient(25, 5)).toBe(5);
 });
+
+
+
+
+// TEST
+test('remainder calculator', () => {
+  expect(remainder(10, 10)).toBe(0);
+});
+test('remainder calculator', () => {
+  expect(remainder(87, 7)).toBe(12);
+});
+
 
 
