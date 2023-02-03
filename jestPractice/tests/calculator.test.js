@@ -62,12 +62,16 @@ test('division calculator', () => {
 
 
 
+//Remainder Function
+function remainder(a,b) {
+  return a % b;
+}
 // TEST
 test('remainder calculator', () => {
   expect(remainder(10, 10)).toBe(0);
 });
 test('remainder calculator', () => {
-  expect(remainder(87, 7)).toBe(12);
+  expect(remainder(87, 7)).toBe(3);
 });
 
 
