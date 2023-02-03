@@ -76,3 +76,15 @@ test('remainder calculator', () => {
 
 
 
+
+// TEST
+test('exponential calculator', () => {
+  expect(exponential(5, 3)).toBe(125);
+});
+test('exponential calculator', () => {
+  expect(exponential(2, 5)).toBe(32);
+});
+
+
+
+
