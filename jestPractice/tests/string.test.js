@@ -23,7 +23,12 @@ test('reverse string', () => {
 
 
 
+  //Uppercases a word Function
+  function uppercase(word) {
+    let upperCase = word.toUpperCase()
 
+    return upperCase
+  }
   // TEST
   test('uppercase string', () => {
     expect(uppercase("Jonas")).toBe("JONAS");
