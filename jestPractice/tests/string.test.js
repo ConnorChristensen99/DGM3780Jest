@@ -1,4 +1,11 @@
+//Reverse String Function
+function reverse(word) {
+    let splitString = word.split('');
 
+    let reverseWord = splitString.reverse()
+    let newWord = reverseWord.join("")
+    return newWord
+}
 
 
 // TEST
@@ -11,3 +18,7 @@ test('reverse string', () => {
   test('reverse string', () => {
     expect(reverse("SpOnGeBoB")).toBe("BoBeGnOpS");
   });
+
+
+
+reverse("best")
