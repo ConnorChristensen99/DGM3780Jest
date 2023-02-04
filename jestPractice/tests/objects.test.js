@@ -10,3 +10,17 @@ test('object key pairings', () => {
   test('object key pairings', () => {
     expect(objectTest({name: "John Doe", age: 16},'occupation')).toBe(false);
   });
+
+
+
+
+
+
+  
+  // TEST
+  test('Adds array of numbers', () => {
+    expect(addArrayNumbers([1,2,3,4,5])).toBe(15);
+  });
+  test('Adds array of numbers', () => {
+    expect(addArrayNumbers([1,7,34,4,5])).toBe(51);
+  });
