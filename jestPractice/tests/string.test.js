@@ -40,3 +40,18 @@ test('reverse string', () => {
     expect(uppercase("SpOnGeBoB")).toBe("SPONGEBOB");
   });
 
+
+
+
+
+    // TEST
+    test('removes vowels from a string', () => {
+        expect(removeVowel("Jonas")).toBe("Jns");
+      });
+      test('removes vowels from a string', () => {
+        expect(removeVowel("sample")).toBe("smpl");
+      });
+      test('removes vowels from a string', () => {
+        expect(removeVowel("SpOnGeBoB")).toBe("SpnGBB");
+      });
+
