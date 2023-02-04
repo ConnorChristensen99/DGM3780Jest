@@ -16,7 +16,11 @@ test('object key pairings', () => {
 
 
 
-  
+  //Function to add an array of numbers
+  function addArrayNumbers(arr) {
+    let newNumber = arr.reduce((a,b) => a + b)
+    return newNumber
+  }
   // TEST
   test('Adds array of numbers', () => {
     expect(addArrayNumbers([1,2,3,4,5])).toBe(15);
