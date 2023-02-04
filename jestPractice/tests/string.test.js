@@ -44,6 +44,16 @@ test('reverse string', () => {
 
 
 
+
+    //Function to remove vowels from a word
+    function removeVowel(word) {
+        //  let splitWord = word.split("")
+        let newWord = word.replace(/[aeiou]/gi, '');
+
+        return newWord
+
+
+    }
     // TEST
     test('removes vowels from a string', () => {
         expect(removeVowel("Jonas")).toBe("Jns");
@@ -54,4 +64,3 @@ test('reverse string', () => {
       test('removes vowels from a string', () => {
         expect(removeVowel("SpOnGeBoB")).toBe("SpnGBB");
       });
-
