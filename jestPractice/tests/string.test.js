@@ -21,4 +21,17 @@ test('reverse string', () => {
 
 
 
-reverse("best")
+
+
+
+  // TEST
+  test('uppercase string', () => {
+    expect(uppercase("Jonas")).toBe("JONAS");
+  });
+  test('uppercase string', () => {
+    expect(uppercase("sample")).toBe("SAMPLE");
+  });
+  test('uppercase string', () => {
+    expect(uppercase("SpOnGeBoB")).toBe("SPONGEBOB");
+  });
+
